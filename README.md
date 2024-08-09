@@ -1,3 +1,9 @@
+# Next.js Full Stack App Tutorial
+- Utilized Next.js, TailwindCSS, MongoDB, and Google Cloud Platform
+- Followed course by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) on YouTube
+
+- --
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
