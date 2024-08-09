@@ -8,6 +8,7 @@ import Form from '@components/Form';
 import { Router } from 'next/router';
 
 const CreatePrompt = () => {
+    //const router = useRouter();
     const { data: session } = useSession();
 
     const [submitting, setSubmitting] = useState(false);
@@ -31,6 +32,7 @@ const CreatePrompt = () => {
             })
 
             if (response.ok) {
+                //router.push('/');
                 Router.push('/');
             }
 
@@ -53,6 +55,3 @@ const CreatePrompt = () => {
 }
 
 export default CreatePrompt
-
-// https://www.youtube.com/watch?v=wm5gMKuwSYk
-// left off 2:48:20
